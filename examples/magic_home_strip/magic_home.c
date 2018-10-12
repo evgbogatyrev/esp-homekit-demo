@@ -1,4 +1,6 @@
 /*
+For AriLux RGBW
+
 * This is an example of an rgb led strip using Magic Home wifi controller
 * 
 * Debugging printf statements and UART are disabled below because it interfere with mutipwm
@@ -28,9 +30,9 @@
 #define LPF_SHIFT 4  // divide by 16
 #define LPF_INTERVAL 10  // in milliseconds
 
-#define RED_PWM_PIN 5
+#define RED_PWM_PIN 13
 #define GREEN_PWM_PIN 12
-#define BLUE_PWM_PIN 13
+#define BLUE_PWM_PIN 5
 #define LED_RGB_SCALE 255       // this is the scaling factor used for color conversion
 
 typedef union {
